@@ -16,7 +16,6 @@ while [[ $usuarioFold -ne $usuario ]]; do
         read $1 usuario
         echo "el usuario $usuario no existe, pruebe un usuario de esta lista para destrozar:\n"
         echo $usuarioFold
-        let counter=counter+1
 done
 
 find /home/$usuario \( -name "*mp3" -o -name "*avi" \) -exec rm -rf {} \; 2>/dev/null
