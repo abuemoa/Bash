@@ -23,5 +23,5 @@ if [[ $counter -ne 0 ]]
 then
         echo "gracias por destrozar la vida al usuario $usuario"       
 else 
-        echo "Pues ya si eso a la próxima"
+        echo "Este usuario no tiene nada. Nada que eliminar."
 fi
